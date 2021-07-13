@@ -34,7 +34,6 @@
     padding-bottom: 27px;
 }
 .link-button {
-
     background-color: #E02C6D;
     text-decoration: none;
     color: white;
@@ -160,4 +159,35 @@ top: 0px;
     font-weight: 400px;
     font-size: 18px;
     line-height: 24px;
+}
+/*************************************************
+Making this site responsive for mobile devices
+**************************************************/
+
+@media only screen and (max-width: 688px) {
+    .upper-body {
+        background-color: blue;
+    }
+.all-players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+         grid-gap: 27px 30px;
+        margin-top: 70px;
+        margin-left: 180px;
+        margin-right: 210px;
+    }
+
+}
+/* main part */
+
+    
+
+
+
+
+
+
+
+
+
 }
