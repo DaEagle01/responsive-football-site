@@ -9,7 +9,10 @@
     align-items: center;
     width: 1440px;
 }
-/* This is upper body  */
+/********************
+ This is upper body 
+
+********************/
 .upper-body {
     display: flex;
     background-color:rgb(90, 21, 250);
@@ -50,6 +53,14 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
     transition: transform 10s;
 }
+
+/************************
+
+ Styling Players Description 
+
+ ************************/
+
+
 .all-players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -89,7 +100,9 @@
     font-size: 16px;
     line-height: 26px
 }
-
+/******************** 
+Styling football news part 
+************************/
 .football-news {
     display: flex;
 
@@ -125,7 +138,9 @@ color: #0A0826;
     margin-right: 156px;
 }
 
-/* This is footer style */
+/*********************
+This is footer style 
+**********************/
 
 
 .footer-section {
