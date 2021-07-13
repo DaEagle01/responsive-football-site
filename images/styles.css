@@ -49,6 +49,7 @@
 }
 .upper-body-image img:hover {
     transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: transform 10s;
 }
 .all-players {
     display: grid;
